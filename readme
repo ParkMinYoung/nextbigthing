@@ -1,0 +1,80 @@
+# execute time : 2024-04-18 13:36:55 : 
+echo "# nextbigthing" >> README.md
+
+
+# execute time : 2024-04-18 13:36:58 : 
+git init
+
+
+# execute time : 2024-04-18 13:37:07 : 
+git add README.md 
+
+
+# execute time : 2024-04-18 13:37:17 : 
+git commit -m "first commit"
+
+
+# execute time : 2024-04-18 13:37:26 : 
+git branch -M main 
+
+
+# execute time : 2024-04-18 13:38:08 : 
+git remote add origin git@github.com:ParkMinYoung/nextbigthing.git 
+
+
+# execute time : 2024-04-18 13:38:25 : 
+git remote --verbose
+
+
+# execute time : 2024-04-18 13:38:37 : 
+git remote remove origin
+
+
+# execute time : 2024-04-18 13:38:40 : 
+git remote --verbose
+
+
+# execute time : 2024-04-18 13:38:45 : 
+git remote add origin git@github.com:ParkMinYoung/nextbigthing.git 
+
+
+# execute time : 2024-04-18 13:38:54 : git push : ok
+git push -u origin main 
+
+
+# execute time : 2024-04-18 13:40:50 : 
+git add .
+
+
+# execute time : 2024-04-18 13:44:31 : 
+git commit -m "nf-core first commit"
+
+
+# execute time : 2024-04-18 13:44:45 : 
+git push -u origin main
+
+
+# execute time : 2024-04-18 13:50:14 : 
+nf-core lint $PWD
+
+
+# execute time : 2024-04-18 14:00:09 : list using 2.13 version
+nf-core list
+
+
+# execute time : 2024-04-18 14:00:43 : 
+nf-core list rna rna-seq
+
+
+# execute time : 2024-04-18 14:58:21 : 
+touch .nf-core.yml
+
+
+# execute time : 2024-04-18 14:59:49 : 
+nf-core modules list remote fastq
+
+
+# execute time : 2024-04-18 15:00:19 : 
+nf-core modules install fastqc 
+
+
