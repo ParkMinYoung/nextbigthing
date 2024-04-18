@@ -1,0 +1,33 @@
+# execute time : 2024-04-18 13:25:36 : 
+cd nf-core-nextbigthing/
+
+
+# execute time : 2024-04-18 13:26:11 : 
+git remote add origin git@github.com:ParkMinYoung/wgs_workload.git 
+
+
+# execute time : 2024-04-18 13:26:21 : 
+git push --all origin
+
+
+# execute time : 2024-04-18 13:27:37 : 
+#git remote --verbose
+
+
+# execute time : 2024-04-18 13:28:00 : 
+#git remote remove origin
+
+
+
+
+
+
+
+# execute time : 2024-04-18 13:28:21 : 처음에 repo 먼저 만들어야 함. 없어서 에러 발생 
+git remote add origin git@github.com:ParkMinYoung/nextbigthing.git
+
+
+# execute time : 2024-04-18 13:28:31 : 처음에 repo 먼저 만들어야 함. 없어서 에러 발생
+git push --all origin 
+
+
