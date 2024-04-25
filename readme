@@ -78,3 +78,51 @@ nf-core modules list remote fastq
 nf-core modules install fastqc 
 
 
+# execute time : 2024-04-18 15:05:51 : 
+git add .
+
+
+# execute time : 2024-04-18 15:06:39 : 
+git push -u origin main 
+
+
+# execute time : 2024-04-18 15:07:56 : 
+nf-core modules install fastqc --force
+
+
+# execute time : 2024-04-18 15:29:09 : 
+nf-core modules list remote somalier
+
+
+# execute time : 2024-04-18 15:30:35 : 
+nf-core modules install somalier/relate
+
+
+# execute time : 2024-04-18 15:34:29 : 
+nf-core modules list remote verifybamid
+
+
+# execute time : 2024-04-18 15:35:04 : 
+nf-core modules install verifybamid/verifybamid 
+
+
+# execute time : 2024-04-18 15:35:27 : 
+nf-core modules install verifybamid/verifybamid2 
+
+
+# execute time : 2024-04-18 15:36:50 : 
+nf-core modules install cutadapt --force
+
+
+# execute time : 2024-04-18 15:42:17 : 
+nf-core subworkflows install fastq_align_bwa 
+
+
+# execute time : 2024-04-18 15:48:10 : 
+nf-core modules install gatk4spark/markduplicates 
+
+
+# execute time : 2024-04-18 15:48:20 : 
+nf-core modules install gatk4/markduplicates 
+
+
