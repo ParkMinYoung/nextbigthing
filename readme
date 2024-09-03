@@ -126,3 +126,55 @@ nf-core modules install gatk4spark/markduplicates
 nf-core modules install gatk4/markduplicates 
 
 
+# execute time : 2024-04-25 16:00:14 : 
+git commit -m "add modules"
+
+
+# execute time : 2024-04-25 16:00:21 : 
+git push -u origin main 
+
+
+# execute time : 2024-08-29 14:36:53 : 
+nf-core modules list remote fastp
+
+
+# execute time : 2024-08-29 14:37:32 : 
+nf-core modules install fastp 
+
+
+# execute time : 2024-08-30 09:43:43 : 
+parallel -n 1  nf-core modules install  ::: bwa/mem bwamem2/mem dragmap/align sentieon/bwamem
+
+
+# execute time : 2024-08-30 09:46:09 : 
+nf-core modules install  bwamem2/mem 
+
+
+# execute time : 2024-08-30 09:46:38 : 
+nf-core modules list remote  dragmap
+
+
+# execute time : 2024-08-30 09:46:50 : 
+nf-core modules install  dragmap/align
+
+
+# execute time : 2024-08-30 11:33:20 : 
+nf-core modules install samtools/convert 
+
+
+# execute time : 2024-08-30 11:44:08 : 
+nf-core modules install samtools/index
+
+
+# execute time : 2024-08-30 11:44:18 : 
+nf-core modules install samtools/merge
+
+
+# execute time : 2024-08-30 11:46:18 : 
+nf-core modules install mosdepth 
+
+
+# execute time : 2024-09-03 09:10:22 : 
+git status
+
+

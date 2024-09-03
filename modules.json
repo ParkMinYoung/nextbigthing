@@ -8,11 +8,26 @@
                     "bwa/mem": {
                         "branch": "master",
                         "git_sha": "b97197968ac12dde2463fa54541f6350c46f2035",
-                        "installed_by": ["fastq_align_bwa"]
+                        "installed_by": ["fastq_align_bwa", "modules"]
+                    },
+                    "bwamem2/mem": {
+                        "branch": "master",
+                        "git_sha": "2201e21b09213f083832ac58e33353d410a6fde7",
+                        "installed_by": ["modules"]
                     },
                     "cutadapt": {
                         "branch": "master",
                         "git_sha": "6618151ed69274863dc6fe6d2920afa90abaca1f",
+                        "installed_by": ["modules"]
+                    },
+                    "dragmap/align": {
+                        "branch": "master",
+                        "git_sha": "dd2757cc22c5de8943fa38ba7cd6f8cc1eb65ac1",
+                        "installed_by": ["modules"]
+                    },
+                    "fastp": {
+                        "branch": "master",
+                        "git_sha": "1ceaa8ba4d0fd886dbca0e545815d905b7407de7",
                         "installed_by": ["modules"]
                     },
                     "fastqc": {
@@ -30,9 +45,19 @@
                         "git_sha": "3b928d02096f928ef224d89f2a502afaa6e06556",
                         "installed_by": ["modules"]
                     },
+                    "mosdepth": {
+                        "branch": "master",
+                        "git_sha": "9bfc81874554e87740bcb3e5e07acf0a153c9ecb",
+                        "installed_by": ["modules"]
+                    },
                     "multiqc": {
                         "branch": "master",
                         "git_sha": "b7ebe95761cd389603f9cc0e0dc384c0f663815a",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/convert": {
+                        "branch": "master",
+                        "git_sha": "04fbbc7c43cebc0b95d5b126f6d9fe4effa33519",
                         "installed_by": ["modules"]
                     },
                     "samtools/flagstat": {
@@ -48,7 +73,12 @@
                     "samtools/index": {
                         "branch": "master",
                         "git_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
-                        "installed_by": ["bam_sort_stats_samtools"]
+                        "installed_by": ["bam_sort_stats_samtools", "modules"]
+                    },
+                    "samtools/merge": {
+                        "branch": "master",
+                        "git_sha": "04fbbc7c43cebc0b95d5b126f6d9fe4effa33519",
+                        "installed_by": ["modules"]
                     },
                     "samtools/sort": {
                         "branch": "master",
@@ -59,6 +89,11 @@
                         "branch": "master",
                         "git_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
                         "installed_by": ["bam_stats_samtools"]
+                    },
+                    "sentieon/bwamem": {
+                        "branch": "master",
+                        "git_sha": "ac7abc0c563bcb977c5838feac6677a84191bb72",
+                        "installed_by": ["modules"]
                     },
                     "somalier/relate": {
                         "branch": "master",
